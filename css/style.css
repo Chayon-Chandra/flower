@@ -98,6 +98,10 @@ header{
  .header-img{
     margin-top: 20px;
  }
+ .btn-button{
+    padding: 10px 20px;
+    font-size: 18px; 
+}
  
 }
 /* medium device */
@@ -114,6 +118,8 @@ header{
     margin: 50px 0;
 }
 .featured-container{
+    margin: 0 auto;
+    width: 90%;
 }
 .our-featured{
     text-align: center;
@@ -124,8 +130,69 @@ header{
 .our-featured p{
     padding: 20px 0;
 }
-.item-flower{}
-.pink-img{}
-.pink-img img{}
-.pink-img p
+.pink1{
+    background-color: #f2dee7;
+}
+.pink2{
+    background-color: #d9eff1;
+}
+.pink3{
+    background-color: #e3ebdb;
+}
+.item-flower{
+    margin-top: 30px;
+    display:flex;
+    justify-content: space-between;
+}
+.pink-img{
+    width: 32%;
+}
+.img-item{
+    display: flex;
+    justify-content: center;
+    height: 500px;
+    border-radius: 49% 49% 0 0 ;
+}
+.img-item img{
+    padding: 100px 70px 0 70px;
+}
+.pink-img p{
+    margin: 10px 0 5px 0;
+    font-family:Lato-Bold;
+    font-size: 24px;
+    color: #272727;
+    text-align: center;
+}
+.desh{
+    margin: 0 auto;
+    background-color: #272727;
+    height: 1px;
+    width: 45%;
+}
+/* responsive */
+/* mobile device */
+@media screen and (max-width:576px){
+    .our-featured h2{
+    font-size: 25px;
+    }
+    .item-flower{
+        display: block;
+    }
+    .pink-img{
+        margin-top: 20px;
+    width: 100%;
+    }
+    .img-item img{
+    padding: 100px 10px 0 10px;
+    }
+    .pink-img p{
+        font-size: 20px;
+    }
+
+
+}
+    
+
+
+
 /* Our Featured Flowers section end */

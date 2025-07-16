@@ -1,0 +1,131 @@
+@font-face {
+    font-family:Lato-Black;
+    src: url(../font/Lato-Black.ttf);
+}
+@font-face {
+    font-family:Lato-Bold;
+    src: url(../font/Lato-Bold.ttf);
+}
+@font-face {
+    font-family:Lato-Regular;
+    src: url(../font/Lato-Regular.ttf);
+}
+@font-face {
+    font-family:Lato-Semibold;
+    src: url(../font/Lato-Semibold.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+img{
+    width: 100%;
+    height: auto;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+/* share class */
+.lato-black{
+    font-family:Lato-Black;
+    color: #272727;
+    font-size: 75px;
+    font-weight: 900;
+}
+.Lato-regular{
+    font-family:Lato-Regular;
+    color: #7C7778;
+    font-size: 16px;
+    font-weight: 400;
+}
+.btn-button{
+    padding: 15px 30px;
+    font-family:Lato-Bold;
+    color: #FFFFFF;
+    font-size: 20px;
+    font-size: 700;
+    background-color: #E55473;
+    border-style: none;
+    border-radius: 10px;
+}
+.btn-button:hover{
+    color: #E55473;
+    background-color: #272727;
+    transition-duration: .3s;
+}
+/* banner section start */
+header{
+    padding-top: 40px;
+    background-color: #FCEEF1;
+}
+.header-container{
+    margin: 0 auto;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-text{
+    width: 50%;
+}
+.header-text p{
+    padding: 40px 0;
+}
+.header-img{
+    display: flex;
+}
+/* responsive device */
+/* mobile device */
+@media screen and (max-width:576px) {
+
+    header{
+         padding-top: 50px;
+         background-color: #FCEEF1;
+    }
+    .header-container{
+         display: block;
+
+}
+    .header-text h1{
+        font-size: 40px;
+    }
+    .header-text{
+         width: 100%;
+}
+ .header-img{
+    margin-top: 20px;
+ }
+ 
+}
+/* medium device */
+@media screen and (min-width:576px) and (max-width:992px){
+
+    .header-text h1{
+        font-size: 50px;
+    } 
+}
+/* banner section end */
+
+/* Our Featured Flowers section start */
+#featured{
+    margin: 50px 0;
+}
+.featured-container{
+}
+.our-featured{
+    text-align: center;
+}
+.our-featured h2{
+    font-size: 40px;
+}
+.our-featured p{
+    padding: 20px 0;
+}
+.item-flower{}
+.pink-img{}
+.pink-img img{}
+.pink-img p
+/* Our Featured Flowers section end */

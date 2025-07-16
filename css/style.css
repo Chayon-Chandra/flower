@@ -28,6 +28,9 @@ li{
 a{
     text-decoration: none;
 }
+body{
+    background-color: #ffffff;
+}
 /* share class */
 .lato-black{
     font-family:Lato-Black;
@@ -169,6 +172,26 @@ header{
     height: 1px;
     width: 45%;
 }
+.same-day{
+    margin-top: 70px;
+    padding: 70px 0;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: space-evenly;
+}
+.same-day-item{
+    width: 27%;
+    text-align: center;
+}
+.same-day-item img{
+    width: 80px;
+}
+.same-day-item h6{
+    font-family:Lato-Semibold;
+    font-size: 20px;
+    color: #272727;
+    font-weight: 500;
+}
 /* responsive */
 /* mobile device */
 @media screen and (max-width:576px){
@@ -180,19 +203,158 @@ header{
     }
     .pink-img{
         margin-top: 20px;
-    width: 100%;
+        width: 100%;
     }
     .img-item img{
-    padding: 100px 10px 0 10px;
+        padding: 100px 10px 0 10px;
     }
     .pink-img p{
         font-size: 20px;
     }
+    .same-day{
+        display: block;
+    }
+    .same-day-item{
+        margin-top: 30px;
+        width: 100%;
+    }
 
 
 }
+/* medium device */
+@media screen and (min-width:576px) and (max-width:992px){
     
+    .img-item img{
+        padding: 100px 0px 0 0px;
+    }
 
-
-
+}
 /* Our Featured Flowers section end */
+/* hot deal section start */
+#hot{
+    margin-top: 100px;
+    background-color: #FEF6F8;
+}
+.hot-container{
+    margin: 0 auto;
+    padding: 50px 0;
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.hot-text{
+    width: 45%;
+    text-align: center;
+}
+.hot-text h2{
+    font-size: 40px;
+}
+.hot-text h2 span{
+    color: #E55473;
+}
+.hot-text p{
+    padding: 20px 0;
+}
+/* responsive */
+/* Mobile device */
+@media screen and (max-width:576px){
+    #hot{
+        margin-top: 50px;
+    }
+    .hot-container{
+        flex-direction: column;
+    }
+    .hot-text{
+        width: 100%;
+    }
+    .hot-text h2{
+        font-size: 30px;
+    }
+
+
+}
+/* hot deal section end */
+/* instagram section start */
+#insta{
+    margin: 50px 0;
+}
+.instagram-container{
+    width: 90%;
+    margin: 0 auto;
+}
+.instagram-img{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+     gap: 20px;
+}
+/* responsive */
+/* mobile */
+@media screen and (max-width:576px){
+    .instagram-img{
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+/* medium device */
+@media screen and (min-width:576px) and (max-width:992px){
+    .instagram-img{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+/* instagram section end */
+/* Get The Latest Deals section start */
+
+.get-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 90%;
+    background-image: url(../asset/Rectangle\ 9.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+}
+form input{
+    margin-right: 20px;
+    padding-left: 15px;
+    width: 700px;
+    height: 57px;
+    outline: none;
+    border-radius: 10px;
+    border-style: none;
+    background-color: #FFFFFF;
+    font-size: 20px;
+    
+}
+/* responsive */
+/* mobile */
+@media screen and (max-width:576px){
+   
+    form{}
+    form button{
+        margin-top: 20px;
+        display: block;
+    }
+    form input{
+    display: block;
+    margin-right: 20px;
+    padding-left: 15px;
+    width: 250px;
+    font-size: 15px;
+    }
+}
+/* medium device */
+@media screen and (min-width:576px) and (max-width:992px){
+   form input{
+    display: block;
+    margin-right: 20px;
+    padding-left: 15px;
+    width: 500px;
+    font-size: 15px;
+    }
+    form button{
+        margin-top: 20px;
+    }
+}
+/* Get The Latest Deals section end */
